@@ -1,0 +1,37 @@
+{
+  "name": "pwa-intro",
+  "version": "1.0.0",
+  "description": "Intro to Progressive Web Apps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akjs/pwa-intro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akjs/pwa-intro/issues"
+  },
+  "homepage": "https://github.com/akjs/pwa-intro#readme",
+  "dependencies": {
+    "blipp": "^3.0.0",
+    "glue": "^5.0.0",
+    "good": "^8.1.1",
+    "good-console": "^7.1.0",
+    "hapi": "^17.5.4",
+    "hapi-router": "^4.0.0",
+    "inert": "^5.1.0",
+    "load-json-file": "^5.0.0",
+    "update-json-file": "^1.1.1",
+    "vision": "^5.4.0",
+    "web-push": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
